@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B6EDE6E285B246C0031BD71 /* CustomRangeCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6EDE6D285B246C0031BD71 /* CustomRangeCircularSlider.swift */; };
 		BB692D2E235C9EB300CB74DA /* HGCircularSliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB692D2D235C9EB300CB74DA /* HGCircularSliderTests.swift */; };
 		BB692D30235C9EB300CB74DA /* HGCircularSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCDBFDDB1E43366F005D6F08 /* HGCircularSlider.framework */; };
 		BB692D37235C9F1100CB74DA /* CircularSliderHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB692D36235C9F1100CB74DA /* CircularSliderHelperTests.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B6EDE6D285B246C0031BD71 /* CustomRangeCircularSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomRangeCircularSlider.swift; sourceTree = "<group>"; };
 		BB692D2B235C9EB300CB74DA /* HGCircularSliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HGCircularSliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB692D2D235C9EB300CB74DA /* HGCircularSliderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HGCircularSliderTests.swift; sourceTree = "<group>"; };
 		BB692D2F235C9EB300CB74DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				CCDBFDFB1E4336C9005D6F08 /* CircularSliderHelper.swift */,
 				CCCC96451E9F7FD000999D34 /* MidPointCircularSlider.swift */,
 				CCDBFDFC1E4336C9005D6F08 /* RangeCircularSlider.swift */,
+				2B6EDE6D285B246C0031BD71 /* CustomRangeCircularSlider.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B6EDE6E285B246C0031BD71 /* CustomRangeCircularSlider.swift in Sources */,
 				CCDBFDFF1E4336C9005D6F08 /* CircularSlider+Draw.swift in Sources */,
 				CCDBFE021E4336C9005D6F08 /* RangeCircularSlider.swift in Sources */,
 				CCDBFE001E4336C9005D6F08 /* CircularSlider.swift in Sources */,

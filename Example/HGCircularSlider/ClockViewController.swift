@@ -19,7 +19,7 @@ class ClockViewController: UIViewController {
     @IBOutlet weak var durationLabel: UILabel!
     @IBOutlet weak var bedtimeLabel: UILabel!
     @IBOutlet weak var wakeLabel: UILabel!
-    @IBOutlet weak var rangeCircularSlider: RangeCircularSlider!
+    @IBOutlet weak var rangeCircularSlider: CustomRangeCircularSlider!
     @IBOutlet weak var clockFormatSegmentedControl: UISegmentedControl!
     
     lazy var dateFormatter: DateFormatter = {
@@ -37,11 +37,16 @@ class ClockViewController: UIViewController {
         rangeCircularSlider.startThumbImage = UIImage(named: "Bedtime")
         rangeCircularSlider.endThumbImage = UIImage(named: "Wake")
         
-        let dayInSeconds = 24 * 60 * 60
-        rangeCircularSlider.maximumValue = CGFloat(dayInSeconds)
-        
-        rangeCircularSlider.startPointValue = 1 * 60 * 60
-        rangeCircularSlider.endPointValue = 8 * 60 * 60
+        let dayHours: CGFloat = 24
+        let hourMinutes: CGFloat = 60
+        let minuteSeconds: CGFloat = 60
+        let hourSeconds: CGFloat = hourMinutes * minuteSeconds
+        let daySeconds: CGFloat = dayHours * hourSeconds
+        rangeCircularSlider.maximumValue = daySeconds
+        rangeCircularSlider.minimumRangeValue = 0.5 * hourSeconds
+        rangeCircularSlider.maximumRangeValue = daySeconds - 60
+        rangeCircularSlider.startPointValue = 1 * hourSeconds
+        rangeCircularSlider.endPointValue = 8 * hourSeconds
 
         updateTexts(rangeCircularSlider)
     }
@@ -53,8 +58,8 @@ class ClockViewController: UIViewController {
     
     @IBAction func updateTexts(_ sender: AnyObject) {
         
-        adjustValue(value: &rangeCircularSlider.startPointValue)
-        adjustValue(value: &rangeCircularSlider.endPointValue)
+        // adjustValue(value: &rangeCircularSlider.startPointValue)
+        // adjustValue(value: &rangeCircularSlider.endPointValue)
 
         
         let bedtime = TimeInterval(rangeCircularSlider.startPointValue)

@@ -7,31 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		23AE8D7B15AE823A76B41ACF746FC91D /* MidPointCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00034A66E44CC7047F5DE9931D09366E /* MidPointCircularSlider.swift */; };
-		33129701D6A331F40BEC83251A91EFE6 /* CircularSliderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D4029A4F3440DDE800772CCD4BE734 /* CircularSliderHelper.swift */; };
-		4156A559278B58C621B0EA4DE16C53CC /* Pods-HGCircularSlider_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C16B40AB1704FFF772672C6D1C349BA /* Pods-HGCircularSlider_Tests-dummy.m */; };
-		51FFC6B04820BF18E1A619F80207DEE7 /* Pods-HGCircularSlider_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 335044A8F24C8F65A1C993D9DF2B659F /* Pods-HGCircularSlider_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C3308D6D683344B34EEC13931A08313 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		5D39FA5BB0EC03687A946F440BCE8EE7 /* Pods-HGCircularSlider_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FC561DDFE28687FAB5EE8B81912CF6 /* Pods-HGCircularSlider_Example-dummy.m */; };
-		701C2F5A876C21D45629A096FDC17081 /* HGCircularSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A615A78F332CC0909358A951D116F /* HGCircularSlider-dummy.m */; };
-		95BACCE3B04F5848054B2DE34FA9722B /* Pods-HGCircularSlider_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0531D278A24CD38372CAB079C2BCC3CC /* Pods-HGCircularSlider_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7F517124F9D6913DD2E7CE52D18BD34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		D5E466C9BEE9CF508910C3D1782A8382 /* HGCircularSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A6397F560C0F0036557E4B05812B188 /* HGCircularSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E4606FAE0CFBA2C4BA46647307ACD499 /* RangeCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DE0386A588366C60D5DA20DB32166D /* RangeCircularSlider.swift */; };
-		E96E87B8CE55AD88940EC4EE401978F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		F4927D68F6D455229FC1D386DEA83466 /* CircularSlider+Draw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A468421B7F6824DAFB2559A66327E6 /* CircularSlider+Draw.swift */; };
-		FFAA32FE26C07E3C3486F608F471FC8A /* CircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E6657289603D268E52A3576C3F2BF2 /* CircularSlider.swift */; };
+		132F735571BE0DD776DA5F609784188D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		157657D6DAF99D6C09127D7B442117FB /* CircularSliderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF673D9ABCD8E3CFAD394D1AC212CA4 /* CircularSliderHelper.swift */; };
+		2F754E5160634EE8F1CBB37E0344D72B /* Pods-HGCircularSlider_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FC561DDFE28687FAB5EE8B81912CF6 /* Pods-HGCircularSlider_Example-dummy.m */; };
+		3266379076458642295F52CB74805335 /* HGCircularSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 744B6BA132DBB9243418A388A4E58176 /* HGCircularSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C478F5F095C98E740D3245CF551FDF4 /* Pods-HGCircularSlider_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0531D278A24CD38372CAB079C2BCC3CC /* Pods-HGCircularSlider_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F05D10885DE0F9010ABB20D75B2C21F /* CustomRangeCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE33C07EB5880CB6E668A0C5CECBFB43 /* CustomRangeCircularSlider.swift */; };
+		40899B669ADBCE3CCFB24AA17636D309 /* Pods-HGCircularSlider_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 335044A8F24C8F65A1C993D9DF2B659F /* Pods-HGCircularSlider_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		579503B9011E13DE52F116F730BBC6A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		651966FDBC6CD15B0D5FC529E5166235 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		706CFC9A57C6FA82D9EAEA9DBBE5093C /* CircularSlider+Draw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0D0226ADD334E227D66BA755B264F /* CircularSlider+Draw.swift */; };
+		866D0E0765D42FFB03FA7EE5B1007990 /* RangeCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9DE084FE9791A3B24F2F17F8FB8D6C /* RangeCircularSlider.swift */; };
+		998A42BA79CE29C8F0FEB29BE52DC01E /* Pods-HGCircularSlider_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C16B40AB1704FFF772672C6D1C349BA /* Pods-HGCircularSlider_Tests-dummy.m */; };
+		BE3D3E85E6A46D1E90483D82F2859AE3 /* HGCircularSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 311AB740AB897B67DC3A96246FE9A50E /* HGCircularSlider-dummy.m */; };
+		DE97BEBF21C83FAB1471B2C719D0F9F8 /* MidPointCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAD0EA3ACA9BF101CC76373A1365761 /* MidPointCircularSlider.swift */; };
+		E1628E35691ECEAD8B898D3B9AD397D5 /* CircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AE7F97313977ECFF0D442E0C86C48A /* CircularSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2A28D32FE903A3285B7B7E2FF8164DB8 /* PBXContainerItemProxy */ = {
+		4151E95DC5761503C91A8FE740B3E1BA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B213802BB3911873FA13A1912E82012F;
 			remoteInfo = "Pods-HGCircularSlider_Example";
 		};
-		8AD552BC4EA18DA7126BF3A27F412D44 /* PBXContainerItemProxy */ = {
+		DCAA5460B804B854C2DD1F73BA16AC75 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -41,84 +42,98 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00034A66E44CC7047F5DE9931D09366E /* MidPointCircularSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MidPointCircularSlider.swift; path = HGCircularSlider/Classes/MidPointCircularSlider.swift; sourceTree = "<group>"; };
 		02588610488867870353D10A66D62EBA /* Pods-HGCircularSlider_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HGCircularSlider_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0531D278A24CD38372CAB079C2BCC3CC /* Pods-HGCircularSlider_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HGCircularSlider_Tests-umbrella.h"; sourceTree = "<group>"; };
-		20D4029A4F3440DDE800772CCD4BE734 /* CircularSliderHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircularSliderHelper.swift; path = HGCircularSlider/Classes/CircularSliderHelper.swift; sourceTree = "<group>"; };
+		11360841A33779D3BC0AB217CFB48B0E /* HGCircularSlider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HGCircularSlider.debug.xcconfig; sourceTree = "<group>"; };
+		1944A615288FB5464043592ADF2BF073 /* HGCircularSlider.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HGCircularSlider.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2878A7138E8A98E3B5985164713B37C3 /* Pods-HGCircularSlider_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HGCircularSlider_Tests.modulemap"; sourceTree = "<group>"; };
 		2A9F8906F31F255CFAC8C955C0AD0EB8 /* Pods-HGCircularSlider_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HGCircularSlider_Example.modulemap"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		311AB740AB897B67DC3A96246FE9A50E /* HGCircularSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HGCircularSlider-dummy.m"; sourceTree = "<group>"; };
 		335044A8F24C8F65A1C993D9DF2B659F /* Pods-HGCircularSlider_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HGCircularSlider_Example-umbrella.h"; sourceTree = "<group>"; };
-		3A6397F560C0F0036557E4B05812B188 /* HGCircularSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HGCircularSlider-umbrella.h"; sourceTree = "<group>"; };
+		36AE7F97313977ECFF0D442E0C86C48A /* CircularSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircularSlider.swift; path = HGCircularSlider/Classes/CircularSlider.swift; sourceTree = "<group>"; };
+		3FD0D0226ADD334E227D66BA755B264F /* CircularSlider+Draw.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CircularSlider+Draw.swift"; path = "HGCircularSlider/Classes/CircularSlider+Draw.swift"; sourceTree = "<group>"; };
 		40A9E1BF9BD7E69EC9050CD12524CA6A /* Pods-HGCircularSlider_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HGCircularSlider_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4228D6D3CEDCA8624C7F5A1F8225A29B /* Pods-HGCircularSlider_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HGCircularSlider_Example-Info.plist"; sourceTree = "<group>"; };
+		46461B700917604BDB589BEFDB5F637A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		4926A9DAFEDBBFB51FC2FA92126C7032 /* Pods-HGCircularSlider_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HGCircularSlider_Tests-Info.plist"; sourceTree = "<group>"; };
 		4C16B40AB1704FFF772672C6D1C349BA /* Pods-HGCircularSlider_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HGCircularSlider_Tests-dummy.m"; sourceTree = "<group>"; };
-		5436D8550DC4C6321D1A40278A848C0B /* HGCircularSlider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HGCircularSlider-Info.plist"; sourceTree = "<group>"; };
-		54A3FC20C66408531C03EEF4B9821AE3 /* Pods_HGCircularSlider_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HGCircularSlider_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C8A615A78F332CC0909358A951D116F /* HGCircularSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HGCircularSlider-dummy.m"; sourceTree = "<group>"; };
-		75A468421B7F6824DAFB2559A66327E6 /* CircularSlider+Draw.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CircularSlider+Draw.swift"; path = "HGCircularSlider/Classes/CircularSlider+Draw.swift"; sourceTree = "<group>"; };
+		54A3FC20C66408531C03EEF4B9821AE3 /* Pods-HGCircularSlider_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HGCircularSlider_Tests"; path = Pods_HGCircularSlider_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60BCA68B1ACA25EBA68CC8292924F70C /* HGCircularSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HGCircularSlider.modulemap; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		744B6BA132DBB9243418A388A4E58176 /* HGCircularSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HGCircularSlider-umbrella.h"; sourceTree = "<group>"; };
 		81FC561DDFE28687FAB5EE8B81912CF6 /* Pods-HGCircularSlider_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HGCircularSlider_Example-dummy.m"; sourceTree = "<group>"; };
+		83D6999CDEEE32416F5AE2624D1DE1E7 /* HGCircularSlider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HGCircularSlider.release.xcconfig; sourceTree = "<group>"; };
+		871FB3CEE04CA1FA9F3FD2AEBE0EDCBC /* HGCircularSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HGCircularSlider-prefix.pch"; sourceTree = "<group>"; };
 		8CD6A4F5CE27BAFFC31E4878DDB01BDD /* Pods-HGCircularSlider_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HGCircularSlider_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		912406725FA30057CA11E94A42405766 /* Pods_HGCircularSlider_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HGCircularSlider_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A371A0DD4113F3F67231EECD9C878B92 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		912406725FA30057CA11E94A42405766 /* Pods-HGCircularSlider_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HGCircularSlider_Example"; path = Pods_HGCircularSlider_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EF673D9ABCD8E3CFAD394D1AC212CA4 /* CircularSliderHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircularSliderHelper.swift; path = HGCircularSlider/Classes/CircularSliderHelper.swift; sourceTree = "<group>"; };
+		A04127A26D9E9B3D6ECCC892D9AD8559 /* HGCircularSlider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HGCircularSlider-Info.plist"; sourceTree = "<group>"; };
 		A3CD69074F507B3569D5B513D27549F8 /* Pods-HGCircularSlider_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HGCircularSlider_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A6D6DEBDCDDD8970F43649C218F8746E /* HGCircularSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HGCircularSlider.modulemap; sourceTree = "<group>"; };
-		AACB37F05405DDBD40F4BDB778341695 /* HGCircularSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HGCircularSlider-prefix.pch"; sourceTree = "<group>"; };
-		D18BC77130A0F952686F6640607DC850 /* HGCircularSlider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HGCircularSlider.xcconfig; sourceTree = "<group>"; };
+		BE9DE084FE9791A3B24F2F17F8FB8D6C /* RangeCircularSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RangeCircularSlider.swift; path = HGCircularSlider/Classes/RangeCircularSlider.swift; sourceTree = "<group>"; };
 		DA1EA90A0DC940741BB9510A83433F9E /* Pods-HGCircularSlider_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HGCircularSlider_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DAF5270C2A5FC4F64F8B3718BF0E7429 /* HGCircularSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HGCircularSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFA59C572EC367C5762E2EC58381F29A /* HGCircularSlider.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HGCircularSlider.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E18CA88D30C0132ED7002DF4A39C5045 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DAF5270C2A5FC4F64F8B3718BF0E7429 /* HGCircularSlider */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HGCircularSlider; path = HGCircularSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE33C07EB5880CB6E668A0C5CECBFB43 /* CustomRangeCircularSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomRangeCircularSlider.swift; path = HGCircularSlider/Classes/CustomRangeCircularSlider.swift; sourceTree = "<group>"; };
 		E89E5B545A6604882E250A1E69959933 /* Pods-HGCircularSlider_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HGCircularSlider_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F0DE0386A588366C60D5DA20DB32166D /* RangeCircularSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RangeCircularSlider.swift; path = HGCircularSlider/Classes/RangeCircularSlider.swift; sourceTree = "<group>"; };
+		EF0EC9901A0034F5F05DD788537A9E46 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F48C480530B1EEC63B12E3D25AC41FBF /* Pods-HGCircularSlider_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HGCircularSlider_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F5D4D0CC167B194D4B1C35D0105DB71E /* Pods-HGCircularSlider_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HGCircularSlider_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F8E6657289603D268E52A3576C3F2BF2 /* CircularSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircularSlider.swift; path = HGCircularSlider/Classes/CircularSlider.swift; sourceTree = "<group>"; };
 		FA9955D22C912FD36A0B6FC9CC971DBA /* Pods-HGCircularSlider_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HGCircularSlider_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FAAD0EA3ACA9BF101CC76373A1365761 /* MidPointCircularSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MidPointCircularSlider.swift; path = HGCircularSlider/Classes/MidPointCircularSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8E33AA61865BAA0D01C8929DBE89F87E /* Frameworks */ = {
+		46EF3171FC49A007A401B9EC07EF2A15 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E96E87B8CE55AD88940EC4EE401978F0 /* Foundation.framework in Frameworks */,
+				132F735571BE0DD776DA5F609784188D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		900CEC5CA6A59337324E7F8FB0438B68 /* Frameworks */ = {
+		D97FF77A0FA289C47E8FA41216AF2BB7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C3308D6D683344B34EEC13931A08313 /* Foundation.framework in Frameworks */,
+				579503B9011E13DE52F116F730BBC6A8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0FA9BA069796245FD71122BDB950C31 /* Frameworks */ = {
+		F877423ADA6A3C9544E2BDCA0C6B85DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7F517124F9D6913DD2E7CE52D18BD34 /* Foundation.framework in Frameworks */,
+				651966FDBC6CD15B0D5FC529E5166235 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01CF1CE9FF991C21E45B154B67790C88 /* Support Files */ = {
+		057E656A0CB10C5B45EA8F537AC58367 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A6D6DEBDCDDD8970F43649C218F8746E /* HGCircularSlider.modulemap */,
-				D18BC77130A0F952686F6640607DC850 /* HGCircularSlider.xcconfig */,
-				6C8A615A78F332CC0909358A951D116F /* HGCircularSlider-dummy.m */,
-				5436D8550DC4C6321D1A40278A848C0B /* HGCircularSlider-Info.plist */,
-				AACB37F05405DDBD40F4BDB778341695 /* HGCircularSlider-prefix.pch */,
-				3A6397F560C0F0036557E4B05812B188 /* HGCircularSlider-umbrella.h */,
+				DAF5270C2A5FC4F64F8B3718BF0E7429 /* HGCircularSlider */,
+				912406725FA30057CA11E94A42405766 /* Pods-HGCircularSlider_Example */,
+				54A3FC20C66408531C03EEF4B9821AE3 /* Pods-HGCircularSlider_Tests */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HGCircularSlider";
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FA31729FD53F5A33E4C3AD28CAC899C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				682A01C78E7FAD05B6A1041551FD21FE /* HGCircularSlider */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		61925295BDE53FC7B183C344DAB64C7D /* Pods-HGCircularSlider_Example */ = {
@@ -138,37 +153,43 @@
 			path = "Target Support Files/Pods-HGCircularSlider_Example";
 			sourceTree = "<group>";
 		};
-		61A8098C0CD960AE63619A6278E2F44E /* Products */ = {
+		682A01C78E7FAD05B6A1041551FD21FE /* HGCircularSlider */ = {
 			isa = PBXGroup;
 			children = (
-				DAF5270C2A5FC4F64F8B3718BF0E7429 /* HGCircularSlider.framework */,
-				912406725FA30057CA11E94A42405766 /* Pods_HGCircularSlider_Example.framework */,
-				54A3FC20C66408531C03EEF4B9821AE3 /* Pods_HGCircularSlider_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		7B7DC1B0969185108F5D9A1394EA8642 /* HGCircularSlider */ = {
-			isa = PBXGroup;
-			children = (
-				F8E6657289603D268E52A3576C3F2BF2 /* CircularSlider.swift */,
-				75A468421B7F6824DAFB2559A66327E6 /* CircularSlider+Draw.swift */,
-				20D4029A4F3440DDE800772CCD4BE734 /* CircularSliderHelper.swift */,
-				00034A66E44CC7047F5DE9931D09366E /* MidPointCircularSlider.swift */,
-				F0DE0386A588366C60D5DA20DB32166D /* RangeCircularSlider.swift */,
-				8AA6462E6F9603B0996C9649BBF4EFC9 /* Pod */,
-				01CF1CE9FF991C21E45B154B67790C88 /* Support Files */,
+				36AE7F97313977ECFF0D442E0C86C48A /* CircularSlider.swift */,
+				3FD0D0226ADD334E227D66BA755B264F /* CircularSlider+Draw.swift */,
+				9EF673D9ABCD8E3CFAD394D1AC212CA4 /* CircularSliderHelper.swift */,
+				DE33C07EB5880CB6E668A0C5CECBFB43 /* CustomRangeCircularSlider.swift */,
+				FAAD0EA3ACA9BF101CC76373A1365761 /* MidPointCircularSlider.swift */,
+				BE9DE084FE9791A3B24F2F17F8FB8D6C /* RangeCircularSlider.swift */,
+				8C00F8DC2B6C9DB558090A8B915ACCE3 /* Pod */,
+				86FDC140224A7D8A2F70B5AF4BCE39F6 /* Support Files */,
 			);
 			name = HGCircularSlider;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		8AA6462E6F9603B0996C9649BBF4EFC9 /* Pod */ = {
+		86FDC140224A7D8A2F70B5AF4BCE39F6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DFA59C572EC367C5762E2EC58381F29A /* HGCircularSlider.podspec */,
-				A371A0DD4113F3F67231EECD9C878B92 /* LICENSE */,
-				E18CA88D30C0132ED7002DF4A39C5045 /* README.md */,
+				60BCA68B1ACA25EBA68CC8292924F70C /* HGCircularSlider.modulemap */,
+				311AB740AB897B67DC3A96246FE9A50E /* HGCircularSlider-dummy.m */,
+				A04127A26D9E9B3D6ECCC892D9AD8559 /* HGCircularSlider-Info.plist */,
+				871FB3CEE04CA1FA9F3FD2AEBE0EDCBC /* HGCircularSlider-prefix.pch */,
+				744B6BA132DBB9243418A388A4E58176 /* HGCircularSlider-umbrella.h */,
+				11360841A33779D3BC0AB217CFB48B0E /* HGCircularSlider.debug.xcconfig */,
+				83D6999CDEEE32416F5AE2624D1DE1E7 /* HGCircularSlider.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HGCircularSlider";
+			sourceTree = "<group>";
+		};
+		8C00F8DC2B6C9DB558090A8B915ACCE3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1944A615288FB5464043592ADF2BF073 /* HGCircularSlider.podspec */,
+				46461B700917604BDB589BEFDB5F637A /* LICENSE */,
+				EF0EC9901A0034F5F05DD788537A9E46 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -180,14 +201,6 @@
 				C6B059E117F63D499F8B6C031BC3766F /* Pods-HGCircularSlider_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		C6B059E117F63D499F8B6C031BC3766F /* Pods-HGCircularSlider_Tests */ = {
@@ -206,21 +219,13 @@
 			path = "Target Support Files/Pods-HGCircularSlider_Tests";
 			sourceTree = "<group>";
 		};
-		C7ECD141E5CD8B953154795392AC0E73 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7B7DC1B0969185108F5D9A1394EA8642 /* HGCircularSlider */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				C7ECD141E5CD8B953154795392AC0E73 /* Development Pods */,
+				3FA31729FD53F5A33E4C3AD28CAC899C /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				61A8098C0CD960AE63619A6278E2F44E /* Products */,
+				057E656A0CB10C5B45EA8F537AC58367 /* Products */,
 				B69618D6B496333892E43F3157EB0896 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -228,7 +233,7 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -236,27 +241,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		39EF3F991508F724E2E524F385C1410B /* Headers */ = {
+		33B32126CE462FB36DCAF06FBE38A92D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51FFC6B04820BF18E1A619F80207DEE7 /* Pods-HGCircularSlider_Example-umbrella.h in Headers */,
+				3266379076458642295F52CB74805335 /* HGCircularSlider-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		767C99A70BD3DBCFB9160917392C8EB6 /* Headers */ = {
+		6872FE48965F0C887124DE767C63D0C4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5E466C9BEE9CF508910C3D1782A8382 /* HGCircularSlider-umbrella.h in Headers */,
+				40899B669ADBCE3CCFB24AA17636D309 /* Pods-HGCircularSlider_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1347AA14AA58110A0DBA43C73FF697A /* Headers */ = {
+		7865A196B861ED2CAAA52B7FE03736B9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95BACCE3B04F5848054B2DE34FA9722B /* Pods-HGCircularSlider_Tests-umbrella.h in Headers */,
+				3C478F5F095C98E740D3245CF551FDF4 /* Pods-HGCircularSlider_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,12 +270,12 @@
 /* Begin PBXNativeTarget section */
 		82EEAE7DB07C6F17150BFE2EAD014CB2 /* HGCircularSlider */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 830DCB0A097257D0F9E1D557676CFDE1 /* Build configuration list for PBXNativeTarget "HGCircularSlider" */;
+			buildConfigurationList = FF530DB271BDF2738E319002EA660265 /* Build configuration list for PBXNativeTarget "HGCircularSlider" */;
 			buildPhases = (
-				767C99A70BD3DBCFB9160917392C8EB6 /* Headers */,
-				6978B58842DD4999449ECEB578D444D9 /* Sources */,
-				8E33AA61865BAA0D01C8929DBE89F87E /* Frameworks */,
-				5F9A73F81E071C4227DCD8F475E6B09B /* Resources */,
+				33B32126CE462FB36DCAF06FBE38A92D /* Headers */,
+				EB459197732833771BA3B090CE9BBB3E /* Sources */,
+				46EF3171FC49A007A401B9EC07EF2A15 /* Frameworks */,
+				BA1D9F2AF277955242BF6C4106639156 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -278,45 +283,45 @@
 			);
 			name = HGCircularSlider;
 			productName = HGCircularSlider;
-			productReference = DAF5270C2A5FC4F64F8B3718BF0E7429 /* HGCircularSlider.framework */;
+			productReference = DAF5270C2A5FC4F64F8B3718BF0E7429 /* HGCircularSlider */;
 			productType = "com.apple.product-type.framework";
 		};
 		B213802BB3911873FA13A1912E82012F /* Pods-HGCircularSlider_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 60F9ECED62234D6A5F746454BE2C412A /* Build configuration list for PBXNativeTarget "Pods-HGCircularSlider_Example" */;
+			buildConfigurationList = CF6AD42A271B108BCD9FED2DC35A3E54 /* Build configuration list for PBXNativeTarget "Pods-HGCircularSlider_Example" */;
 			buildPhases = (
-				39EF3F991508F724E2E524F385C1410B /* Headers */,
-				ED9B2C1F66B0BCE691315A8FADD756C3 /* Sources */,
-				E0FA9BA069796245FD71122BDB950C31 /* Frameworks */,
-				060180A78B64C21D9BE294C6701D53FE /* Resources */,
+				6872FE48965F0C887124DE767C63D0C4 /* Headers */,
+				E3780A8E57B012676DA6F7CCDFFFBE44 /* Sources */,
+				F877423ADA6A3C9544E2BDCA0C6B85DB /* Frameworks */,
+				51D65DF8DF23DAE6663F31A05C5B830D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FCAC2C42735829E3EC4C5765BC67A479 /* PBXTargetDependency */,
+				4A973A1B91297E82D21165500723C3A8 /* PBXTargetDependency */,
 			);
 			name = "Pods-HGCircularSlider_Example";
-			productName = "Pods-HGCircularSlider_Example";
-			productReference = 912406725FA30057CA11E94A42405766 /* Pods_HGCircularSlider_Example.framework */;
+			productName = Pods_HGCircularSlider_Example;
+			productReference = 912406725FA30057CA11E94A42405766 /* Pods-HGCircularSlider_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		B4659955CAF2176773FE23897A32DD3A /* Pods-HGCircularSlider_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D810343FB0658FC85807BEBBBD1385D4 /* Build configuration list for PBXNativeTarget "Pods-HGCircularSlider_Tests" */;
+			buildConfigurationList = 71F64063085424357D735FB00C3546E8 /* Build configuration list for PBXNativeTarget "Pods-HGCircularSlider_Tests" */;
 			buildPhases = (
-				F1347AA14AA58110A0DBA43C73FF697A /* Headers */,
-				0834E31E664B312B07C4B0A47E4B7C8D /* Sources */,
-				900CEC5CA6A59337324E7F8FB0438B68 /* Frameworks */,
-				E4E42A3873BD1BA06209009189048C71 /* Resources */,
+				7865A196B861ED2CAAA52B7FE03736B9 /* Headers */,
+				EC950E3E72A4FCC5E670AF65FA57A893 /* Sources */,
+				D97FF77A0FA289C47E8FA41216AF2BB7 /* Frameworks */,
+				F20549B4FBD7298BE528D7E080AE2CE8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				09E6C89A3952973FA26C01011908BF7D /* PBXTargetDependency */,
+				0713660CE32991BFBFC3089A4E2FFD96 /* PBXTargetDependency */,
 			);
 			name = "Pods-HGCircularSlider_Tests";
-			productName = "Pods-HGCircularSlider_Tests";
-			productReference = 54A3FC20C66408531C03EEF4B9821AE3 /* Pods_HGCircularSlider_Tests.framework */;
+			productName = Pods_HGCircularSlider_Tests;
+			productReference = 54A3FC20C66408531C03EEF4B9821AE3 /* Pods-HGCircularSlider_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -325,18 +330,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1110;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				Base,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 61A8098C0CD960AE63619A6278E2F44E /* Products */;
+			productRefGroup = 057E656A0CB10C5B45EA8F537AC58367 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -348,21 +354,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		060180A78B64C21D9BE294C6701D53FE /* Resources */ = {
+		51D65DF8DF23DAE6663F31A05C5B830D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F9A73F81E071C4227DCD8F475E6B09B /* Resources */ = {
+		BA1D9F2AF277955242BF6C4106639156 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4E42A3873BD1BA06209009189048C71 /* Resources */ = {
+		F20549B4FBD7298BE528D7E080AE2CE8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -372,57 +378,94 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0834E31E664B312B07C4B0A47E4B7C8D /* Sources */ = {
+		E3780A8E57B012676DA6F7CCDFFFBE44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4156A559278B58C621B0EA4DE16C53CC /* Pods-HGCircularSlider_Tests-dummy.m in Sources */,
+				2F754E5160634EE8F1CBB37E0344D72B /* Pods-HGCircularSlider_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6978B58842DD4999449ECEB578D444D9 /* Sources */ = {
+		EB459197732833771BA3B090CE9BBB3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4927D68F6D455229FC1D386DEA83466 /* CircularSlider+Draw.swift in Sources */,
-				FFAA32FE26C07E3C3486F608F471FC8A /* CircularSlider.swift in Sources */,
-				33129701D6A331F40BEC83251A91EFE6 /* CircularSliderHelper.swift in Sources */,
-				701C2F5A876C21D45629A096FDC17081 /* HGCircularSlider-dummy.m in Sources */,
-				23AE8D7B15AE823A76B41ACF746FC91D /* MidPointCircularSlider.swift in Sources */,
-				E4606FAE0CFBA2C4BA46647307ACD499 /* RangeCircularSlider.swift in Sources */,
+				E1628E35691ECEAD8B898D3B9AD397D5 /* CircularSlider.swift in Sources */,
+				706CFC9A57C6FA82D9EAEA9DBBE5093C /* CircularSlider+Draw.swift in Sources */,
+				157657D6DAF99D6C09127D7B442117FB /* CircularSliderHelper.swift in Sources */,
+				3F05D10885DE0F9010ABB20D75B2C21F /* CustomRangeCircularSlider.swift in Sources */,
+				BE3D3E85E6A46D1E90483D82F2859AE3 /* HGCircularSlider-dummy.m in Sources */,
+				DE97BEBF21C83FAB1471B2C719D0F9F8 /* MidPointCircularSlider.swift in Sources */,
+				866D0E0765D42FFB03FA7EE5B1007990 /* RangeCircularSlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED9B2C1F66B0BCE691315A8FADD756C3 /* Sources */ = {
+		EC950E3E72A4FCC5E670AF65FA57A893 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D39FA5BB0EC03687A946F440BCE8EE7 /* Pods-HGCircularSlider_Example-dummy.m in Sources */,
+				998A42BA79CE29C8F0FEB29BE52DC01E /* Pods-HGCircularSlider_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		09E6C89A3952973FA26C01011908BF7D /* PBXTargetDependency */ = {
+		0713660CE32991BFBFC3089A4E2FFD96 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-HGCircularSlider_Example";
 			target = B213802BB3911873FA13A1912E82012F /* Pods-HGCircularSlider_Example */;
-			targetProxy = 2A28D32FE903A3285B7B7E2FF8164DB8 /* PBXContainerItemProxy */;
+			targetProxy = 4151E95DC5761503C91A8FE740B3E1BA /* PBXContainerItemProxy */;
 		};
-		FCAC2C42735829E3EC4C5765BC67A479 /* PBXTargetDependency */ = {
+		4A973A1B91297E82D21165500723C3A8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HGCircularSlider;
 			target = 82EEAE7DB07C6F17150BFE2EAD014CB2 /* HGCircularSlider */;
-			targetProxy = 8AD552BC4EA18DA7126BF3A27F412D44 /* PBXContainerItemProxy */;
+			targetProxy = DCAA5460B804B854C2DD1F73BA16AC75 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		131356BE54884448CA49C07BEDF4BB2A /* Debug */ = {
+		25B980C0417641B979DB48BF0C6EBBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5D4D0CC167B194D4B1C35D0105DB71E /* Pods-HGCircularSlider_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HGCircularSlider_Example/Pods-HGCircularSlider_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HGCircularSlider_Example/Pods-HGCircularSlider_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -445,6 +488,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -483,11 +527,11 @@
 			};
 			name = Debug;
 		};
-		524A721E382C0B078D2BD85C67078D57 /* Release */ = {
+		47970444992C497CC0DFF7CFB551E4E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D18BC77130A0F952686F6640607DC850 /* HGCircularSlider.xcconfig */;
+			baseConfigurationReference = 11360841A33779D3BC0AB217CFB48B0E /* HGCircularSlider.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -499,108 +543,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/HGCircularSlider/HGCircularSlider-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/HGCircularSlider/HGCircularSlider-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HGCircularSlider/HGCircularSlider.modulemap";
-				PRODUCT_MODULE_NAME = HGCircularSlider;
-				PRODUCT_NAME = HGCircularSlider;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		54A6A8BFFD209EFDC1207E2B0A48D497 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E89E5B545A6604882E250A1E69959933 /* Pods-HGCircularSlider_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HGCircularSlider_Tests/Pods-HGCircularSlider_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HGCircularSlider_Tests/Pods-HGCircularSlider_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		80BB2B991ED74EE4BB20A3FAE7A6CED6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5D4D0CC167B194D4B1C35D0105DB71E /* Pods-HGCircularSlider_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HGCircularSlider_Example/Pods-HGCircularSlider_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HGCircularSlider_Example/Pods-HGCircularSlider_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8308D0173A7CA200137C7DB710BE5B3A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D18BC77130A0F952686F6640607DC850 /* HGCircularSlider.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HGCircularSlider/HGCircularSlider-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HGCircularSlider/HGCircularSlider-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/HGCircularSlider/HGCircularSlider.modulemap";
 				PRODUCT_MODULE_NAME = HGCircularSlider;
@@ -615,13 +558,13 @@
 			};
 			name = Debug;
 		};
-		911FF10A21E106BF4D9CA1776857B138 /* Debug */ = {
+		4CD8AAE23CAEAB0942B0F3CF107CAD8E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DA1EA90A0DC940741BB9510A83433F9E /* Pods-HGCircularSlider_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -649,13 +592,13 @@
 			};
 			name = Debug;
 		};
-		E473C5FC4D48AC894627CADF422CC1B6 /* Release */ = {
+		5761E5C3A00D9D301057426388557869 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 40A9E1BF9BD7E69EC9050CD12524CA6A /* Pods-HGCircularSlider_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -684,10 +627,11 @@
 			};
 			name = Release;
 		};
-		F090CD07A80273D5A73C8EA19224ADDB /* Release */ = {
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -710,6 +654,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -737,9 +682,76 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		77682A35E9555DD0D88210AC30F46A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E89E5B545A6604882E250A1E69959933 /* Pods-HGCircularSlider_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HGCircularSlider_Tests/Pods-HGCircularSlider_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HGCircularSlider_Tests/Pods-HGCircularSlider_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA0C6EA110E83D5191B68CC35DBD0C08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83D6999CDEEE32416F5AE2624D1DE1E7 /* HGCircularSlider.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HGCircularSlider/HGCircularSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HGCircularSlider/HGCircularSlider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HGCircularSlider/HGCircularSlider.modulemap";
+				PRODUCT_MODULE_NAME = HGCircularSlider;
+				PRODUCT_NAME = HGCircularSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -749,35 +761,35 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				131356BE54884448CA49C07BEDF4BB2A /* Debug */,
-				F090CD07A80273D5A73C8EA19224ADDB /* Release */,
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		60F9ECED62234D6A5F746454BE2C412A /* Build configuration list for PBXNativeTarget "Pods-HGCircularSlider_Example" */ = {
+		71F64063085424357D735FB00C3546E8 /* Build configuration list for PBXNativeTarget "Pods-HGCircularSlider_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				911FF10A21E106BF4D9CA1776857B138 /* Debug */,
-				80BB2B991ED74EE4BB20A3FAE7A6CED6 /* Release */,
+				77682A35E9555DD0D88210AC30F46A84 /* Debug */,
+				5761E5C3A00D9D301057426388557869 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		830DCB0A097257D0F9E1D557676CFDE1 /* Build configuration list for PBXNativeTarget "HGCircularSlider" */ = {
+		CF6AD42A271B108BCD9FED2DC35A3E54 /* Build configuration list for PBXNativeTarget "Pods-HGCircularSlider_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8308D0173A7CA200137C7DB710BE5B3A /* Debug */,
-				524A721E382C0B078D2BD85C67078D57 /* Release */,
+				4CD8AAE23CAEAB0942B0F3CF107CAD8E /* Debug */,
+				25B980C0417641B979DB48BF0C6EBBDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D810343FB0658FC85807BEBBBD1385D4 /* Build configuration list for PBXNativeTarget "Pods-HGCircularSlider_Tests" */ = {
+		FF530DB271BDF2738E319002EA660265 /* Build configuration list for PBXNativeTarget "HGCircularSlider" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54A6A8BFFD209EFDC1207E2B0A48D497 /* Debug */,
-				E473C5FC4D48AC894627CADF422CC1B6 /* Release */,
+				47970444992C497CC0DFF7CFB551E4E2 /* Debug */,
+				FA0C6EA110E83D5191B68CC35DBD0C08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
